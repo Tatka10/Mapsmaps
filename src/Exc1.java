@@ -44,6 +44,16 @@ public class Exc1 {
 
         System.out.println(map);
 
-    }
+        String[] mass1 = {"Masha", "Dasha", "Petya", "Masha", "Petya", "Petya"};
+        Map<String, Integer> map1 = new HashMap<>();
+        for (int el = 0; el < mass1.length; el++) {
+            if (map1.containsKey(mass1[el])) {
+                map1.put(mass1[el], map1.get(mass1[el]) + 1);
 
+            } else {
+                map1.put(mass1[el], 1);
+            }
+        }
+        System.out.println(map1);
+    }
 }
