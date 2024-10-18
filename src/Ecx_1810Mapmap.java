@@ -21,7 +21,7 @@ public class Ecx_1810Mapmap {
         }
         System.out.println(map + "\n");
 
-        ArrayList<String> arr = new ArrayList<>(Arrays.asList(mass));
+        ArrayList<String> arr = new ArrayList<>(Arrays.asList(mass)); //из массива сделали коллекцию
         Map<String, Integer> map1 = new HashMap<>();
         //System.out.println(arr);
         for (int i = 0; i < arr.size(); i++) {
